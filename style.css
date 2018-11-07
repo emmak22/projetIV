@@ -1,0 +1,69 @@
+h2{font-family: 'Courgette', cursive;
+text-align: center;
+font-size:40px;
+}
+#content{font-family: 'Parisienne', cursive;
+text-align: center;
+font-size:40px;
+}
+
+#theme,#nombre {
+	font-family: 'Courgette', cursive;
+ display: block;
+ margin-left:auto; 
+  margin-right:auto;
+    text-align: center;
+    line-height: 200%;
+    font-size: 28px;
+}
+ label {
+	font-family: 'Courgette', cursive;
+ display: block;
+ margin-left:auto; 
+  margin-right:auto;
+    text-align: center;
+    line-height: 150%;
+    font-size: 32px;
+}
+.header
+{
+    background-image: url("plume.jpg");
+    background-position: center;
+        background-repeat: no-repeat;
+    height: 200px;
+}
+
+	#submission{
+	text-align:center;
+	}
+
+.submit {font-family: 'Parisienne', cursive;
+  border-top: 0px;
+   background: #f7fafc;
+   background: -webkit-gradient(linear, left top, left bottom, from(#babec2), to(#f7fafc));
+   background: -webkit-linear-gradient(top, #babec2, #f7fafc);
+   background: -moz-linear-gradient(top, #babec2, #f7fafc);
+   background: -ms-linear-gradient(top, #babec2, #f7fafc);
+   background: -o-linear-gradient(top, #babec2, #f7fafc);
+   padding: 7px 14px;
+   -webkit-border-radius: 0px;
+   -moz-border-radius: 0px;
+   border-radius: 0px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #120b12;
+   font-size: 30px;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.submit:hover {
+   border-top-color: #d1d7de;
+   background: #d1d7de;
+   color: #060317;
+   }
+.submit:active {
+   border-top-color: #e1ebf2;
+   background: #e1ebf2;
+   }

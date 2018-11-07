@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Générateur de citations</title>
+        <meta charset="UTF-8">
+		<link href="https://fonts.googleapis.com/css?family=Parisienne" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style.css" />       
+	
+    </head>
+    
+	<body>
+	
+		  <div class="header"></div>
+		   
+	<h2>Générateur de citations</h2>
+	
+	<label for="theme">Thème:</label>
+		<select name="theme" id="theme"> 
+			<option value="1" selected>Volonté</option>
+			<option value="2">Passions</option>
+		</select>
+
+	<label for="nombre">Nombre de citation(s) à générer:</label>
+		<select name="nombre" id="nombre">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+		</select>     
+		
+		<!-- Nous voulons appeler notre fonction lorsque l'utilisateur cliquera sur le bouton. Utilisons alors le gestionnaire d'événement onclick : -->
+		<p id="submission"><input type="submit" class="submit" value="Lancer" onclick="demarrer();"/></input></p>
+
+			<div id="content"></div>
+	
+    	<script src="script.js"></script>
+    </body>
+
+
+</html>
